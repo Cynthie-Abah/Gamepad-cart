@@ -1,0 +1,214 @@
+/* #3e454d  #171a23*/
+
+.body{
+    
+    position: relative;
+    display: flex;
+     justify-content: center; 
+      /* align-items: center;   */
+    /* rotate: 90deg; */
+   
+}
+ .bg{
+   
+    height: 100vh;
+    display: flex;
+     display: inline-block;
+     margin: 0;
+    position: relative;
+    margin-top: -8px;
+   
+    padding-top: 0;
+    
+    padding-right: 2.635rem;
+    padding-left: .005px; 
+} 
+.check{
+    position: absolute;
+    left: 30rem;
+     bottom: 3.5rem; 
+   color: #fff;
+    /* border: 2px solid; */
+    width: 320px;
+    height: 89vh;
+   border-radius: 35px;
+}
+.blue{
+     background: linear-gradient(150deg,#4b98dc 30% , #4b3cc8 );
+   padding-top: 2rem;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+}
+.header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin :2px;
+   padding-right: 1rem;
+   padding-top: 0;
+   
+}
+.header> li> a{
+    color: #fff;
+    text-decoration: none;
+}
+.cart{
+    /* background-color: #fff; */
+     background:  linear-gradient(135deg,#2f363c 50%, #121723); 
+    padding: .6rem .5rem;
+    border-radius: 80px;
+    box-shadow:  3px 3px 2px 2px rgba(1, 2, 2, .2);
+}
+.type{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 2.5px;
+    font-weight: 500; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.type-child{
+    color: #dfdfdf;
+    text-transform: capitalize;
+    list-style: none;
+    line-height: 2;
+    margin: 0;
+    font-size: small;
+    letter-spacing: normal;
+}
+.black{
+   /* background-color: red; */
+     background: linear-gradient(to right,#333936  , #1a1c28);  
+    color: rgb(224, 231, 243 );
+    padding:.3rem 1.5rem .5rem 1.5rem;
+    margin-top: -1.3rem;
+    /* padding-top: 20rem;  */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+     /* height: 270px;
+    width: 350px; */ 
+    font-family:  sans-serif;
+    font-weight: 100 ;
+    font-size:.77rem;
+    letter-spacing: .8px;
+    line-height: 20px;
+    
+}
+.black > h1{
+    text-transform: capitalize;
+   margin-bottom: 0;
+   letter-spacing: .8px;
+}
+.list{
+    display: flex;
+    line-height: .5;
+    text-transform: capitalize;
+    list-style: none;
+    /* list-style: square linear-gradient(to right,#333936  , #1a1c28); */
+
+}
+
+.dual{margin-left:.2rem;
+    list-style: none;
+    font-size: .7rem;
+}
+.dual >li{
+    font-weight: 800;
+   
+}
+.du2{
+    margin-left: 1.9rem;
+}
+dual-child{
+    font-weight:lighter;
+}
+.square{
+    position: absolute;
+    background: linear-gradient(to right,#333936  , #1a1c28);
+    display: inline-block;
+    margin-top:-.5rem ;
+  margin-left:-50px;
+    width: 32px;
+    height: 32px; 
+    border-radius:8px;
+    box-shadow: 2px 1.5px 1px 1px rgba(1, 2, 2, .3);
+}
+.footer{
+    background: linear-gradient(to right,#33393d 50%, #1a1c28);
+    border: #33393d 2px solid;
+    box-shadow: 2px 1.5px 1px 1px rgba(1, 2, 2, .2);
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:10px ;
+    padding-right:10px ;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 15px;
+
+}
+.price{
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dollar{
+    font-weight: 600;
+    font-size: 20px;
+    color:#4b98dc ;
+}
+.btn{
+    color:#fff;
+background: linear-gradient(to right,#4b98dc 30% , #4b3cc8 );
+border: none;
+border-radius: 5px;
+height: 30px;
+width: 8.5rem;
+margin-top:auto ;
+margin-bottom: auto;
+display: flex;
+justify-content: space-evenly;
+
+
+    /* padding-left: 10px;
+    padding-bottom: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display:inline-block;
+    gap:15px; */
+    /* padding-bottom: 1px; */
+    /* padding-bottom: -4px; */
+    /* margin: 0; */
+     /* margin-top: .5rem;
+    margin-bottom: 1rem;  */
+}
+  .btn2{
+    margin-top: auto;
+     margin-bottom: auto; 
+    
+}  
+.line{
+    display: block;
+    width: 1.7px;
+    height: 29px;
+    background-color: grey;
+    box-shadow: 2px 1px #555;
+    margin: 0;
+    margin-left: 20px;
+
+}
+.pad{
+position: absolute;
+rotate: 270deg;
+/* width: 1500px;
+height: 800px;  */
+ bottom: 43%;
+ left: 12%;  
+
+}
+
